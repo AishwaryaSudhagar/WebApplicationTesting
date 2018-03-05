@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.TestNGAnnotations.CapturingTitle&apos; to &apos;CapturingAndValidatingGmailTitle&apos;&#x0D;&#x0A;- Original project: &apos;WebTesting&apos;&#x0D;&#x0A;- Original element: &apos;com.TestNGAnnotations.CapturingTitle&apos;&#x0D;&#x0A;- Renamed element: &apos;com.TestNGAnnotations.CapturingAndValidatingGmailTitle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CapturingTitle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.TestNGAnnotations{CapturingTitle.java[CapturingTitle" matchStrategy="1" name="CapturingAndValidatingGmailTitle" qualified="false" references="true" similarDeclarations="false" stamp="1518984260403" textual="false" version="1.0"/>
+</session>

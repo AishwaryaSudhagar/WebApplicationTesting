@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NewTours suite" duration-ms="44310" started-at="2018-02-27T06:43:52Z" finished-at="2018-02-27T06:44:36Z">
+    <groups>
+    </groups>
+    <test name="onChrome" duration-ms="43942" started-at="2018-02-27T06:43:52Z" finished-at="2018-02-27T06:44:36Z">
+      <class name="com.GridTesting.NewToursApplicationLogInTest">
+        <test-method status="PASS" signature="LogInTest(java.lang.String)[pri:0, instance:com.GridTesting.NewToursApplicationLogInTest@2a2d45ba]" name="LogInTest" duration-ms="43901" started-at="2018-02-27T06:43:52Z" finished-at="2018-02-27T06:44:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest -->
+      </class> <!-- com.GridTesting.NewToursApplicationLogInTest -->
+    </test> <!-- onChrome -->
+    <test name="onFirefox" duration-ms="44310" started-at="2018-02-27T06:43:52Z" finished-at="2018-02-27T06:44:36Z">
+      <class name="com.GridTesting.NewToursApplicationLogInTest">
+        <test-method status="PASS" signature="LogInTest(java.lang.String)[pri:0, instance:com.GridTesting.NewToursApplicationLogInTest@32d992b2]" name="LogInTest" duration-ms="44274" started-at="2018-02-27T06:43:52Z" finished-at="2018-02-27T06:44:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest -->
+      </class> <!-- com.GridTesting.NewToursApplicationLogInTest -->
+    </test> <!-- onFirefox -->
+  </suite> <!-- NewTours suite -->
+</testng-results>

@@ -1,0 +1,1 @@
+java -cp "C:\Users\aishsub\Desktop\AishwaryaSelenium\WebTesting\Library/*";"C:\Users\aishsub\Desktop\AishwaryaSelenium\WebTesting\bin" org.testng.TestNG "C:\Users\aishsub\Desktop\AishwaryaSelenium\WebTesting\NewToursScenariosTesting.xml"

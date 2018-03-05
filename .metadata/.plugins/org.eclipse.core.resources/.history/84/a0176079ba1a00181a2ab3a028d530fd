@@ -1,0 +1,4 @@
+Feature: NewTours Application Testing
+Scenario: NewTour Application LogIn Functionality Testing
+
+Given Open FireFox Browser and Navigate to NewTours Application

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewTours suite]" parallel="tests">
+  <parameter name="Browser" value="chrome"/>
+  <test name="onFirefox(failed)" parallel="tests">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.GridTesting.NewToursApplicationLogInTest">
+        <methods>
+          <include name="LogInTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.GridTesting.NewToursApplicationLogInTest -->
+    </classes>
+  </test> <!-- onFirefox(failed) -->
+</suite> <!-- Failed suite [NewTours suite] -->

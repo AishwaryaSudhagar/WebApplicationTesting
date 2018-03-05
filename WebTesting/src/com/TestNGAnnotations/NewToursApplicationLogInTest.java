@@ -1,0 +1,50 @@
+package com.TestNGAnnotations;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class NewToursApplicationLogInTest
+{
+	
+	FirefoxDriver driver;
+
+	@BeforeTest
+	public void setUp()
+	{
+		 driver = new FirefoxDriver();
+		driver.get("http://newtours.demoaut.com");
+	}
+	
+	@Test
+	public void LogInTest()
+	{
+		driver.findElement(By.name("userName")).sendKeys("tutorial");
+		driver.findElement(By.name("password")).sendKeys("tutorial");
+		driver.findElementByName("login").click();
+		
+		String ExpectedTitle="Find a Flight: Mercury Tours:";
+		String ActualTitle=driver.getTitle();
+		System.out.println(ActualTitle);
+		
+		if(ActualTitle.equals(ExpectedTitle))
+		{
+			System.out.println("Title matched -- PASS");
+		}
+		else
+		{
+			System.out.println("Title not matched -- FAIL");
+		}
+		
+	}
+	
+	@AfterTest
+	public void tearDown()
+	{
+		driver.close();
+	}
+	
+	
+}

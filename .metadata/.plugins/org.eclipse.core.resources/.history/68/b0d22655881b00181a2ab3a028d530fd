@@ -1,0 +1,17 @@
+<suite name="NewTours suite">
+
+	<test name="onFirefox">
+ <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.GridTesting_NewToursApplicationLogInTest"/>
+    </classes>
+  </test>
+
+<test name="onChrome">
+ <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.GridTesting_NewToursApplicationLogInTest"/>
+    </classes>
+  </test>
+
+</suite>
